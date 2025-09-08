@@ -29,6 +29,9 @@
   </a>
 </div>
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2509.01322"><b>Tech Report</b>&nbsp;📄</a>
+</p>
 
 ## Model Introduction
 We introduce LongCat-Flash, a powerful and efficient language model with 560 billion total parameters, featuring an innovative Mixture-of-Experts (MoE) architecture. The model incorporates a dynamic computation mechanism that activates 18.6B∼31.3B parameters (averaging∼27B) based on contextual demands, optimizing both computational efficiency and performance. To achieve advanced training and inference efficiency, we employ a shortcut-connected architecture that expands computation-communication overlap window, achieving over 100 tokens per second (TPS) for inference cost-effectively. Our comprehensive training and scaling strategies ensure stable, efficient training, while tailored data strategies enhance model performance.
@@ -189,6 +192,20 @@ It is the responsibility of developers and downstream users to understand and co
 
 Nothing in this Model Card should be interpreted as altering or restricting the terms of the MIT License under which the model is released. 
 
+## Citation
+We kindly encourage citation of our work if you find it useful.
+
+```
+@misc{meituan2025longcatflashtechnicalreport, 
+    title={LongCat-Flash Technical Report}, 
+    author={Meituan LongCat Team}, 
+    year={2025}, 
+    eprint={2509.01322}, 
+    archivePrefix={arXiv}, 
+    primaryClass={cs.CL}, 
+    url={https://arxiv.org/abs/2509.01322}, 
+}
+```
 
 ## Contact
 Please contact us at <a href="mailto:longcat-team@meituan.com">longcat-team@meituan.com</a> or join our WeChat Group if you have any questions.
